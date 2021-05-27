@@ -10,11 +10,17 @@
 </head>
 <body>
 
-    <!-- emails list -->
-    <ul id="root" v-if="emails.length == 10">
-        <li v-for="email in emails">{{ email }}</li>
-    </ul>
-    <!-- /emails list -->
+    <!-- container -->
+    <div id="root">
+
+        <!-- emails list -->
+        <ul v-if="emails.length == 10">
+            <li v-for="email in emails">{{ email }}</li>
+        </ul>
+        <!-- /emails list -->
+
+    </div>
+    <!-- /container -->
 
     <script src="js/script.js"></script>
 </body>
